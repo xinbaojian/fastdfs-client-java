@@ -22,8 +22,7 @@ public class Test1 {
             if (args.length > 1) {
                 local_filename = args[1];
                 ext_name = null;
-            }
-            else if (System.getProperty("os.name").equalsIgnoreCase("windows")) {
+            } else if (System.getProperty("os.name").equalsIgnoreCase("windows")) {
                 local_filename = "c:/windows/system32/notepad.exe";
                 ext_name = "exe";
             } else {

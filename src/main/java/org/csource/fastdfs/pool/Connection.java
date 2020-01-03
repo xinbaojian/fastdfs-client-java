@@ -48,7 +48,6 @@ public class Connection {
     }
 
     /**
-     *
      * @throws IOException
      */
     public void close() throws IOException {
@@ -97,6 +96,7 @@ public class Connection {
         }
         return isConnected;
     }
+
     public boolean isAvaliable() {
         if (isConnected()) {
             if (sock.getPort() == 0) {

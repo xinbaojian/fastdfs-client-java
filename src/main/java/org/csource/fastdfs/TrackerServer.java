@@ -10,8 +10,8 @@ package org.csource.fastdfs;
 
 import org.csource.common.MyException;
 import org.csource.fastdfs.pool.Connection;
-import org.csource.fastdfs.pool.ConnectionPool;
 import org.csource.fastdfs.pool.ConnectionFactory;
+import org.csource.fastdfs.pool.ConnectionPool;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -39,6 +39,7 @@ public class TrackerServer {
         }
         return connection;
     }
+
     /**
      * get the server info
      *
